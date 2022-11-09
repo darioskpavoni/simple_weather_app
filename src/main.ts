@@ -2,7 +2,8 @@ const weatherContainer = document.querySelector(".weather")! as HTMLElement;
 const inputCity = document.getElementById("inputCity")! as HTMLInputElement;
 const inputCityBtn = document.getElementById("btnSearch")! as HTMLInputElement;
 
-const API_KEY = "c94e5215a14ce266a58d2a2a1eb47f15";
+// TODO(spa): Get API key from backend via env variables
+const API_KEY = "";
 
 let searchedCity: string;
 
